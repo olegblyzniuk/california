@@ -169,6 +169,47 @@ body {
   width: 100%;
 }
 
+.owl-carousel .owl-nav button.owl-prev {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-left: 2px solid #08090D;
+  border-bottom: 2px solid #08090D;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 47%;
+  left: 19px;
+}
+.owl-carousel .owl-nav button.owl-next {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-right: 2px solid #08090D;
+  border-top: 2px solid #08090D;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 47%;
+  right: 19px;
+}
+.owl-carousel .owl-dots {
+  position: absolute;
+  left: 25%;
+  bottom: 34px;
+  text-align: center;
+}
+.owl-carousel .owl-dots .owl-dot {
+  margin-right: 34px;
+}
+.owl-carousel .owl-dots .owl-dot:last-of-type {
+  margin-right: 0;
+}
+.owl-carousel .owl-dots .owl-dot span {
+  display: block;
+  width: 194px;
+  height: 2px;
+  background: #000000;
+}
+
 .shop {
   padding: 47px 0 28px;
 }
@@ -203,6 +244,10 @@ body {
 .shop .categories article {
   background: #FFFFFF;
   filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  transition: 0.5s;
+}
+.shop .categories article:hover {
+  transform: translateY(20px);
 }
 .shop .categories .laptops_and_watch {
   max-width: 639px;
@@ -233,6 +278,9 @@ body {
 .shop .categories .laptops {
   padding: 0 42px;
   margin-bottom: 16px;
+}
+.shop .categories .laptops .laptop_img {
+  max-width: 500px;
 }
 .shop .categories .laptops h4 {
   text-align: right;
@@ -271,4 +319,75 @@ body {
   width: 233px;
   margin: auto;
   margin-bottom: 42px;
+}
+
+.most_sell {
+  padding: 72px 0 27px;
+}
+.most_sell h3 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 9px;
+}
+.most_sell p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 31px;
+}
+.most_sell .d_flex {
+  align-items: flex-start;
+}
+.most_sell .item_holder .item_card .item_img {
+  padding: 28px;
+}
+.most_sell .item_holder .item_card .item_img img {
+  display: block;
+  width: 100%;
+}
+.most_sell .item_holder .item_descrition {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.most_sell .item_holder h4 {
+  height: 33%;
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.most_sell .item_holder p {
+  max-width: 261px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B;
+  text-align: left;
+  margin-bottom: 8px;
+  flex-grow: 1;
+}
+.most_sell .item_holder span {
+  height: 33%;
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */

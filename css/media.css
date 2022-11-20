@@ -6,29 +6,40 @@
     .nav-toggler{
       display: block;
     }
-    .site-navbar {
-      min-height: 60px;
-    }
-    .site-navbar ul {
+    .header-area .site-navbar ul {
       position: absolute;
       width: 100%;
       height: calc(100vh - 60px);
       left: 0;
-      top: 88px;
+      top: 96px;
+      z-index: 2;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
-      border-top: 1px solid #DCE5E2;
       background-color:#DCE5E2;
       max-height: 0;
       overflow: hidden;
       transition: .3s;
     }
-    .site-navbar ul li {
+    body .header-area .site-navbar ul li {
       width: 100%;
       text-align: center;
+      margin-bottom: 15px;
     }
-    .site-navbar ul li a {
-      padding: 25px;
+    .header-area .site-navbar ul li:first-of-type {
+      margin-right: 0;
+    }
+    .header-area .site-navbar ul li:nth-child(2) {
+      margin-right: 0;
+    }
+    .header-area .site-navbar ul li:nth-child(2) a::after{
+      display: none;
+    }
+    .header-area .site-navbar ul li:nth-child(3) {
+      margin-right: 0;
+    }
+    .header-area .site-navbar ul li:last-of-type {
+      margin-right: 0;
     }
     .site-navbar ul.open {
       max-height: 100vh;
