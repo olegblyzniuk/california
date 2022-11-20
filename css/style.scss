@@ -496,3 +496,241 @@ body{
         }
     }
 }
+.ideas{
+    padding: 47px 0 24px;
+    h3{
+        font-family: $font_readex;
+        font-style: normal;
+        font-weight: $m_fweight;
+        font-size: 42px;
+        line-height: 52px;
+        text-align: center;
+        color: $main_color;
+        margin-bottom: 9px;
+    }
+    p{
+        font-family: $font_readex;
+        font-style: normal;
+        font-weight: $m_fweight;
+        font-size: 13px;
+        line-height: 17px;
+        text-align: center;
+        color: $main_color;
+        margin-bottom: 56px;
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        font-family: $font_inter;
+        font-style: normal;
+        font-weight: $m_fweight;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: capitalize;
+        color: $main_color;
+        &::after{
+            content: '';
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background-image: url(../images/arrow.svg);
+            background-size: cover;
+            margin-left: 7px;
+            position: relative;
+            top: 3px;
+        }
+    }
+    .ideas_content{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 73px;
+        .content_img{
+            max-width: 620px;
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
+        .content_descrition{
+            padding: 14px 39px 14px 0;
+            max-width: 639px;
+            p{
+                font-family: $font_inter;
+                font-style: normal;
+                font-weight: $m_fweight;
+                font-size: 24px;
+                line-height: 30px;
+                color: $main_color;
+                text-align: left;
+                margin-bottom: 28px;
+            }
+        }
+    }
+}
+.look{
+    padding: 51px 0 19px;
+    h2{
+        font-family: $font_readex;
+        font-style: normal;
+        font-weight: $m_fweight;
+        font-size: 42px;
+        line-height: 52px;
+        text-align: center;
+        color: $main_color;
+        margin-bottom: 24px;
+    }
+    .search_form{
+        max-width: 650px;
+        margin: auto;
+        form{
+            max-width: 650px;
+            height: 60px;
+            position: relative;
+            margin-bottom: 18px;
+            border: 1px solid #C5C5C5;
+                border-radius: 100px;
+                outline: none;
+            input{
+                width: 90%;
+                height: 60px;
+                background: #F8F9FA;
+                border: 1px solid #C5C5C5;
+                border-left: none;
+                border-radius: 100px;
+                border-bottom-left-radius: 0;
+                border-top-left-radius: 0;
+                outline: none;
+                font-size: 14px;
+                color: $main_color;
+                position: absolute;
+                top: -1px;
+                right: -1px;
+                &::placeholder{
+                    font-family: $font_inter;
+                    font-style: normal;
+                    font-weight: $m_fweight;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: $main_color;
+                }
+            }
+            button{
+                border: none;
+                cursor: pointer;
+                &::before{
+                    content: '';
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    background: #F8F9FA;
+                    background-image: url(../images/search.svg);
+                    background-size: cover;
+                    position: absolute;
+                    top: 15px;
+                    left: 17px;
+                }
+            }
+        }
+    }
+    .examples{
+        max-width: 660px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 81px;
+        a{
+            display: block;
+            padding: 12px 22px;
+            background: #FFFFFF;
+            border: 1px solid #C5C5C5;
+            border-radius: 200px;
+            font-family: $font_inter;
+            font-style: normal;
+            font-weight: $m_fweight;
+            font-size: 14px;
+            line-height: 17px;
+            color: $main_color;
+            text-decoration: none;
+            margin-right: 7px;
+            margin-bottom: 7px;
+        }
+    }
+    .never_miss{
+        max-width: 935px;
+        margin: auto;
+        padding: 47px 0 43px;
+        background: #DCE5E2;
+        border-radius: 16px;
+        h4{
+            font-family: $font_readex;
+            font-style: normal;
+            font-weight: $m_fweight;
+            font-size: 42px;
+            line-height: 52px;
+            text-align: center;
+            color: $main_color;
+            margin-bottom: 9px;
+        }
+        p{
+            font-family: $font_inter;
+            font-style: normal;
+            font-weight:$m_fweight;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: $main_color;
+            margin-bottom: 9px;
+        }
+        .never_miss_img{
+            width: 233px;
+            margin: auto;
+            margin-bottom: 14px;
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
+        .sign_form{
+            max-width: 400px;
+            margin: auto;
+            form{
+                max-width: 400px;
+                input{
+                    width: 70%;
+                    height: 50px;
+                    // padding: 16px 0 16px 32px;
+                    padding-left: 32px;
+                    background: #DCE5E2;
+                    border: 1px solid #000000;
+                    border-radius: 54px 0px 0px 54px;
+                    &::placeholder{
+                        font-family: $font_inter;
+                        font-style: normal;
+                        font-weight: $m_fweight;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: $main_color;
+                    }
+                }
+                button{
+                    height: 50px;
+                    padding: 16px 32px;
+                    background: #000000;
+                    border-radius: 0px 200px 200px 0px;
+                    font-family: $font_inter;
+                    font-style: normal;
+                    font-weight: $m_fweight;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    position: relative;
+                    top: 2px;
+                    left: 0;
+                }
+            }
+        }
+    }
+}

@@ -474,4 +474,275 @@ body {
 }
 .best .best_holder .best_card .e_prod {
   padding: 0 29px 0;
+}
+
+.ideas {
+  padding: 47px 0 24px;
+}
+.ideas h3 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.ideas p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 56px;
+}
+.ideas a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.ideas a::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/arrow.svg);
+  background-size: cover;
+  margin-left: 7px;
+  position: relative;
+  top: 3px;
+}
+.ideas .ideas_content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 73px;
+}
+.ideas .ideas_content .content_img {
+  max-width: 620px;
+}
+.ideas .ideas_content .content_img img {
+  display: block;
+  width: 100%;
+}
+.ideas .ideas_content .content_descrition {
+  padding: 14px 39px 14px 0;
+  max-width: 639px;
+}
+.ideas .ideas_content .content_descrition p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.look {
+  padding: 51px 0 19px;
+}
+.look h2 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.look .search_form {
+  max-width: 650px;
+  margin: auto;
+}
+.look .search_form form {
+  max-width: 650px;
+  height: 60px;
+  position: relative;
+  margin-bottom: 18px;
+  border: 1px solid #C5C5C5;
+  border-radius: 100px;
+  outline: none;
+}
+.look .search_form form input {
+  width: 90%;
+  height: 60px;
+  background: #F8F9FA;
+  border: 1px solid #C5C5C5;
+  border-left: none;
+  border-radius: 100px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  outline: none;
+  font-size: 14px;
+  color: #000000;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
+.look .search_form form input::-moz-placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.look .search_form form input:-ms-input-placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.look .search_form form input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.look .search_form form button {
+  border: none;
+  cursor: pointer;
+}
+.look .search_form form button::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #F8F9FA;
+  background-image: url(../images/search.svg);
+  background-size: cover;
+  position: absolute;
+  top: 15px;
+  left: 17px;
+}
+.look .examples {
+  max-width: 660px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 81px;
+}
+.look .examples a {
+  display: block;
+  padding: 12px 22px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-decoration: none;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+.look .never_miss {
+  max-width: 935px;
+  margin: auto;
+  padding: 47px 0 43px;
+  background: #DCE5E2;
+  border-radius: 16px;
+}
+.look .never_miss h4 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.look .never_miss p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.look .never_miss .never_miss_img {
+  width: 233px;
+  margin: auto;
+  margin-bottom: 14px;
+}
+.look .never_miss .never_miss_img img {
+  display: block;
+  width: 100%;
+}
+.look .never_miss .sign_form {
+  max-width: 400px;
+  margin: auto;
+}
+.look .never_miss .sign_form form {
+  max-width: 400px;
+}
+.look .never_miss .sign_form form input {
+  width: 70%;
+  height: 50px;
+  padding-left: 32px;
+  background: #DCE5E2;
+  border: 1px solid #000000;
+  border-radius: 54px 0px 0px 54px;
+}
+.look .never_miss .sign_form form input::-moz-placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.look .never_miss .sign_form form input:-ms-input-placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.look .never_miss .sign_form form input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.look .never_miss .sign_form form button {
+  height: 50px;
+  padding: 16px 32px;
+  background: #000000;
+  border-radius: 0px 200px 200px 0px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  top: 2px;
+  left: 0;
 }/*# sourceMappingURL=style.css.map */
