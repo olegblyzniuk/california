@@ -360,7 +360,6 @@ body {
   justify-content: space-between;
 }
 .most_sell .item_holder h4 {
-  height: 33%;
   font-family: "Readex Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -382,7 +381,6 @@ body {
   flex-grow: 1;
 }
 .most_sell .item_holder span {
-  height: 33%;
   display: block;
   font-family: "Inter", sans-serif;
   font-style: normal;

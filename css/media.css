@@ -6,7 +6,7 @@
     .nav-toggler{
       display: block;
     }
-    .header-area .site-navbar ul {
+    .header-area .site-navbar ul{
       position: absolute;
       width: 100%;
       height: calc(100vh - 60px);
