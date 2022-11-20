@@ -388,4 +388,90 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #000000;
+}
+
+.best {
+  padding: 47px 0 28px;
+}
+.best h3 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.best p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 56px;
+}
+.best .best_holder {
+  display: flex;
+  justify-content: space-between;
+}
+.best .best_holder .best_card {
+  max-width: 413px;
+  padding-top: 41px;
+  background: #F8F9FA;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.best .best_holder .best_card p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0;
+}
+.best .best_holder .best_card h4 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.best .best_holder .best_card a {
+  display: block;
+  width: 190px;
+  margin: auto;
+  padding: 14px 63px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.best .best_holder .best_card .card_img img {
+  display: block;
+  width: 100%;
+}
+.best .best_holder .best_card .latest {
+  padding: 0 77px 0;
+}
+.best .best_holder .best_card .b_sell {
+  padding: 0 59px 0;
+}
+.best .best_holder .best_card .e_prod {
+  padding: 0 29px 0;
 }/*# sourceMappingURL=style.css.map */
