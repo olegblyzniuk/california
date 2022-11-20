@@ -8,10 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+
     <header class="header-area">
         <div class="navbar-area">
           <div class="container">
@@ -48,7 +51,27 @@
     <main>
     <section class="take_look">
         <div class="container">
-            <div class="slider_holder">
+            <div class="slider_holder owl-carousel">
+                <div class="slider_item">
+                    <div class="item_description">
+                        <h1>The new phones are here take a look.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                        <a href="#">Explore</a>
+                    </div>
+                    <div class="item_img">
+                        <img src="images/slider_img.png" alt="phones">
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <div class="item_description">
+                        <h1>The new phones are here take a look.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                        <a href="#">Explore</a>
+                    </div>
+                    <div class="item_img">
+                        <img src="images/slider_img.png" alt="phones">
+                    </div>
+                </div>
                 <div class="slider_item">
                     <div class="item_description">
                         <h1>The new phones are here take a look.</h1>
@@ -62,6 +85,7 @@
             </div>
         </div>
     </section>
+
     <section class="shop">
         <div class="container">
             <h2>Shop our latest offers and categories</h2>
@@ -102,8 +126,59 @@
             </div>
         </div>
     </section>
+    
+    <section class="most_sell">
+        <div class="container">
+            <h3>Save on our most selled items.</h3>
+            <p>Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+            <div class="item_holder d_flex">
+                <article class="item_card">
+                    <div class="item_img">
+                        <img src="images/macbookpro13.jpg" alt="macbookpro13">
+                    </div>
+                    <div class="item_descrition">
+                    <h4>MacBook Pro 13</h4>
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+                    <span>$ 1,200.00 USD</span>
+                    </div>
+                </article>
+                <article class="item_card">
+                    <div class="item_img">
+                        <img src="images/galaxywatch3.jpg" alt="watch">
+                    </div>
+                    <div class="item_descrition">
+                    <h4>Smart Galaxy Watch 3</h4>
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                    <span>$ 199.00 USD</span>
+                    </div>
+                </article>
+                <article class="item_card">
+                    <div class="item_img">
+                        <img src="images/macbookair_m1.jpg" alt="macbookair_m1">
+                    </div>
+                    <div class="item_descrition">
+                    <h4>MacBook Air M1</h4>
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                    <span>$ 1,009.00 USD</span>
+                    </div>
+                </article>
+                <article class="item_card">
+                    <div class="item_img">
+                        <img src="images/macbookpro13.jpg" alt="macbookpro13">
+                    </div>
+                    <div class="item_descrition">
+                    <h4>iPad</h4>
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                    <span>$ 610.00 USD</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
     </main>
 
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
 <script src="js/index.js"></script>
 </body>
 </html>
