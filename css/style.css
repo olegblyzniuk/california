@@ -23,21 +23,28 @@ body {
   padding: 28px 0;
   background: #FFFFFF;
 }
-.header-area .site-navbar ul {
+.header-area .site-navbar .site-logo {
+  display: inline-block;
+}
+.header-area .site-navbar .site-logo img {
+  display: block;
+  width: 100%;
+}
+.header-area .site-navbar .main_nav {
   list-style: none;
   display: flex;
 }
-.header-area .site-navbar ul li:first-of-type {
+.header-area .site-navbar .main_nav li:first-of-type {
   margin-right: 33px;
 }
-.header-area .site-navbar ul li:nth-child(2) {
+.header-area .site-navbar .main_nav li:nth-child(2) {
   margin-right: 35px;
 }
-.header-area .site-navbar ul li:nth-child(2) a {
+.header-area .site-navbar .main_nav li:nth-child(2) a {
   display: inline-flex;
   align-items: center;
 }
-.header-area .site-navbar ul li:nth-child(2) a::after {
+.header-area .site-navbar .main_nav li:nth-child(2) a::after {
   content: "";
   display: block;
   width: 10px;
@@ -46,10 +53,10 @@ body {
   background-size: cover;
   margin-left: 4px;
 }
-.header-area .site-navbar ul li:nth-child(3) {
+.header-area .site-navbar .main_nav li:nth-child(3) {
   margin-right: 44px;
 }
-.header-area .site-navbar ul li a {
+.header-area .site-navbar .main_nav li a {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -60,9 +67,13 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-.header-area .site-navbar ul li a img {
+.header-area .site-navbar .main_nav li a img {
   display: block;
   width: 100%;
+}
+.header-area .site-navbar .header_icon {
+  list-style: none;
+  display: flex;
 }
 .header-area .site-navbar .header_icon li:first-of-type {
   margin-right: 22px;
@@ -152,6 +163,8 @@ body {
   margin-bottom: 44px;
 }
 .take_look .slider_holder .slider_item .item_description a {
+  display: block;
+  max-width: 170px;
   padding: 14px 53px;
   border: 1px solid #000000;
   border-radius: 200px;
@@ -160,9 +173,13 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  text-align: center;
   text-transform: capitalize;
   text-decoration: none;
   color: #000000;
+}
+.take_look .slider_holder .slider_item .item_img {
+  width: 50%;
 }
 .take_look .slider_holder .slider_item .item_img img {
   display: block;
@@ -571,9 +588,6 @@ body {
   height: 60px;
   position: relative;
   margin-bottom: 18px;
-  border: 1px solid #C5C5C5;
-  border-radius: 100px;
-  outline: none;
 }
 .look .search_form form input {
   width: 100%;
@@ -581,7 +595,6 @@ body {
   padding-left: 67px;
   background: #F8F9FA;
   border: 1px solid #C5C5C5;
-  border-left: none;
   border-radius: 100px;
   outline: none;
   font-size: 14px;
@@ -745,4 +758,104 @@ body {
   top: 1px;
   left: 0;
   border: none;
+}
+
+footer {
+  padding: 44px 0 4px;
+  background: #F8F9FA;
+  position: relative;
+}
+footer .footer_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 131px;
+}
+footer .footer_top .footer_logo {
+  padding-top: 10px;
+}
+footer .footer_top .footer_logo a {
+  display: inline-block;
+  margin-bottom: 18px;
+}
+footer .footer_top .footer_logo a img {
+  display: block;
+  width: 100%;
+}
+footer .footer_top p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  max-width: 304px;
+}
+footer .list {
+  width: 197px;
+}
+footer .list h5 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 19px;
+}
+footer .list ul {
+  list-style: none;
+}
+footer .list ul li {
+  margin-bottom: 19px;
+}
+footer .list ul li a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  text-decoration: none;
+}
+footer .footer_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_bottom p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+footer .footer_bottom p a {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  text-decoration: none;
+}
+footer .footer_bottom p a::after {
+  content: "";
+  display: block;
+  width: 21px;
+  height: 21px;
+  background-image: url(../images/arrow.svg);
+  background-size: cover;
+  position: relative;
+  top: 1px;
+}
+footer hr {
+  position: absolute;
+  height: 1px;
+  left: 45px;
+  right: 45px;
+  bottom: 78px;
+  background: #DCE5E2;
 }/*# sourceMappingURL=style.css.map */

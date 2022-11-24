@@ -1,12 +1,184 @@
+@media screen and (max-width: 1294px) {
+  .header-area, .take_look, .shop, .most_sell, .best, .ideas, .look, footer{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .shop .categories {
+    gap: 15px;
+  }
+  .best .best_holder {
+    gap: 15px;
+  } 
+  .ideas .ideas_content{
+    gap: 15px;
+  }
+  .most_sell .d_flex{
+    gap: 15px;
+  }
+  footer .footer_top{
+    gap: 15px;
+  }  
+}
+
+@media screen and (max-width: 1024px){
+  .take_look .slider_holder .slider_item .item_description h1 {
+    font-size: 50px;
+    line-height: 51px;
+  }
+  .take_look .slider_holder .slider_item .item_description p{
+    margin-bottom: 30px;
+  }
+  .owl-carousel .owl-dots {
+    left: 20%;
+    bottom: 20px;
+}
+}
+
+@media screen and (max-width: 992px){
+  .take_look .slider_holder .slider_item .item_description h1 {
+    font-size: 44px;
+    line-height: 47px;
+  }
+  .ideas .ideas_content .content_descrition p {
+    font-size: 21px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 884px){
+  .owl-carousel .owl-dots{
+    display: none;
+  }
+  .take_look .slider_holder .slider_item .item_description a{
+    max-width: 136px;
+    padding: 10px 33px;
+  }
+  .shop .categories .watch{
+    display: block;
+  }
+  .shop .categories .phones{
+    padding: 52px 0;
+  }
+  .shop .categories .tablet{
+    padding: 52px 0;
+  }
+}
+
+@media screen and (max-width: 835px){
+  .best .best_holder .best_card a{
+    width: 150px;
+    padding: 11px 33px;
+  }
+  .ideas .ideas_content .content_descrition p{
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 769px){
+  .header-area .site-navbar .main_nav li:first-of-type {
+    margin-right: 25px;
+  }
+  .header-area .site-navbar .main_nav li:nth-child(2) {
+    margin-right: 28px;
+  }
+  .header-area .site-navbar .main_nav li:nth-child(3) {
+    margin-right: 28px;
+  }
+  .take_look .slider_holder .slider_item .item_description h1{
+    font-size: 39px;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+  .take_look .slider_holder .slider_item .item_description p {
+    margin-bottom: 20px;
+  }
+  .shop h2{
+    font-size: 38px;
+    line-height: 40px;
+  }
+  .shop .categories{
+    flex-direction: column;
+    align-items: center;
+  }
+  .shop .categories .laptops_and_watch{
+    width: 80%;
+  }
+  .shop .categories .laptops{
+    padding-bottom: 40px;
+  }
+  .shop .categories .laptops .laptop_img{
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .shop .categories .watch{
+    padding-bottom: 40px;
+  }
+  .shop .categories .watch .watch_img{
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .shop .categories .phones {
+    width: 80%;
+    padding: 0 0 40px;
+  }
+.shop .categories .phones .phones_img{
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .shop .categories .tablet{
+    width: 80%;
+    padding: 40px 0 0;
+  }
+  .shop .categories .tablet .tablet_img{
+    max-width: 300px;
+    margin: auto;
+  }
+  .most_sell h3{
+    font-size: 38px;
+    line-height: 40px;
+  }
+  .best h3{
+    font-size: 38px;
+    line-height: 40px;
+  }
+  .best .best_holder .best_card h4{
+    font-size: 23px;
+    line-height: 31px;
+  }
+  .ideas h3{
+    font-size: 38px;
+    line-height: 40px;
+  }
+  .ideas a{
+    font-size: 23px;
+    line-height: 24px;
+  }
+  .look h2{
+    font-size: 38px;
+    line-height: 40px;
+  }
+  .look .never_miss h4{
+    font-size: 38px;
+    line-height: 40px;
+  }
+  footer .list h5{
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
 @media screen and (max-width: 767px) {
-    .container {
-      max-width: 720px;
-    }
-    /* navbar css for mobile start */
     .nav-toggler{
       display: block;
     }
-    .header-area .site-navbar ul{
+    .header-area .d_flex{
+      gap: 7px;
+    }
+    .header-area .site-navbar .main_nav{
       position: absolute;
       width: 100%;
       height: calc(100vh - 60px);
@@ -21,28 +193,146 @@
       overflow: hidden;
       transition: .3s;
     }
-    body .header-area .site-navbar ul li {
+    body .header-area .site-navbar .main_nav li {
       width: 100%;
       text-align: center;
       margin-bottom: 15px;
     }
-    .header-area .site-navbar ul li:first-of-type {
+    .header-area .site-navbar .main_nav li:first-of-type {
       margin-right: 0;
     }
-    .header-area .site-navbar ul li:nth-child(2) {
+    .header-area .site-navbar .main_nav li:nth-child(2) {
       margin-right: 0;
     }
-    .header-area .site-navbar ul li:nth-child(2) a::after{
+    .header-area .site-navbar .main_nav li:nth-child(2) a::after{
       display: none;
     }
-    .header-area .site-navbar ul li:nth-child(3) {
+    .header-area .site-navbar .main_nav li:nth-child(3) {
       margin-right: 0;
     }
-    .header-area .site-navbar ul li:last-of-type {
+    .header-area .site-navbar .main_nav li:last-of-type {
       margin-right: 0;
     }
-    .site-navbar ul.open {
+    .header-area .site-navbar .header_icon{
+      align-self: center;
+    }
+    .header-area .site-navbar .header_icon li:last-of-type {
+      margin-right: 0;
+    }
+    .site-navbar .main_nav.open {
       max-height: 100vh;
       overflow: visible;
     }
+    .take_look .slider_holder .slider_item{
+      display: block;
+      padding: 0 40px;
+      text-align: center;
+    }
+    .take_look .slider_holder .slider_item .item_description{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .take_look .slider_holder .slider_item .item_description a{
+      margin: auto;
+    }
+    .take_look .slider_holder .slider_item .item_img{
+      width: 80%;
+      margin: auto;
+    }
+    .most_sell .d_flex{
+      flex-direction: column;
+      align-items: center;
+    }
+    .best .best_holder{
+      flex-direction: column;
+      align-items: center;
+    }
+    .ideas .ideas_content{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    footer .footer_top{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 428px){
+  .shop, .most_sell, .best, .ideas, .look{
+    padding: 20px 15px;
+  }
+  footer{
+    padding: 20px 15px 4px;
+  }
+  .take_look .slider_holder .slider_item .item_description h1{
+    font-size: 31px;
+    line-height: 34px;
+  }
+  .shop h2{
+    font-size: 31px;
+    line-height: 34px;
+  }
+  .shop .categories .laptops{
+    padding:0 20px 20px;
+  }
+  .shop .categories .phones{
+    padding:0 0 20px;
+  }
+  .shop .categories .watch{
+    padding-bottom: 20px;
+  }
+  .shop .categories h3{
+    font-size: 25px;
+    line-height: 28px;
+  }
+  .shop .categories .phones h3{
+    width: 230px;
+  }
+  .most_sell h3{
+    font-size: 31px;
+    line-height: 34px;
+  }
+  .best h3{
+    font-size: 31px;
+    line-height: 34px;
+  }
+  .ideas h3{
+    font-size: 31px;
+    line-height: 34px;
+  }
+  .look h2{
+    font-size: 31px;
+    line-height: 34px;
+  }
+  .look .never_miss{
+    padding: 20px 10px;
+  }
+  .look .never_miss h4{
+    font-size: 31px;
+    line-height: 34px;
+  }
+  .look .never_miss .sign_form form input{
+    width: 100%;
+    border-radius: 54px;
+    margin-bottom: 5px;
+  }
+  .look .never_miss .sign_form form button{
+    display: block;
+    width: 115px;
+    margin: auto;
+    border-radius: 200px;
+  }
+  .shop .categories .phones .phones_img{
+    max-width: 100%;
+  }
+  .shop .categories .tablet .tablet_img{
+    max-width: 100%;
+  }
+  footer .footer_bottom{
+    gap: 20px;
+  }
+  footer .footer_bottom p{
+    text-align: center;
+  }
 }
