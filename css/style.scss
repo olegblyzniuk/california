@@ -193,6 +193,11 @@ body{
                     text-transform: capitalize;
                     text-decoration: none;
                     color: $main_color;
+                    transition: .5s;
+                    &:hover{
+                        background-color: #0d0c0c;
+                        color: #FFFFFF;
+                    }
                 }
             }
             .item_img{
@@ -500,6 +505,11 @@ body{
                 text-decoration: none;
                 color: $main_color;
                 margin-bottom: 30px;
+                transition: .5s;
+                &:hover{
+                        background-color: #0d0c0c;
+                        color: #FFFFFF;
+                }
             }
             .card_img{
                 img{
@@ -673,6 +683,11 @@ body{
             text-decoration: none;
             margin-right: 7px;
             margin-bottom: 7px;
+            transition: .5s;
+            &:hover{
+                background-color: #0d0c0c;
+                color: #FFFFFF;
+            }
         }
     }
     .never_miss{

@@ -187,6 +187,11 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   color: #000000;
+  transition: 0.5s;
+}
+.take_look .slider_holder .slider_item .item_description a:hover {
+  background-color: #0d0c0c;
+  color: #FFFFFF;
 }
 .take_look .slider_holder .slider_item .item_img {
   width: 50%;
@@ -488,6 +493,11 @@ body {
   text-decoration: none;
   color: #000000;
   margin-bottom: 30px;
+  transition: 0.5s;
+}
+.best .best_holder .best_card a:hover {
+  background-color: #0d0c0c;
+  color: #FFFFFF;
 }
 .best .best_holder .best_card .card_img img {
   display: block;
@@ -676,6 +686,11 @@ body {
   text-decoration: none;
   margin-right: 7px;
   margin-bottom: 7px;
+  transition: 0.5s;
+}
+.look .examples a:hover {
+  background-color: #0d0c0c;
+  color: #FFFFFF;
 }
 .look .never_miss {
   max-width: 935px;
